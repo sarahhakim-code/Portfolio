@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #0a0a0a;
+  }
+
+  body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: 'Space Grotesk', Inter, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom Neon Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #24242d;
+    border-radius: 4px;
+    border: 1px solid #ff1f3d;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00e5ff;
+  }
+}
+
+/* Comic halftone dot background */
+.comic-halftone {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.comic-halftone-dense {
+  background-image: radial-gradient(rgba(0, 229, 255, 0.15) 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+}
+
+.comic-halftone-red {
+  background-image: radial-gradient(rgba(255, 31, 61, 0.15) 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+}
+
+/* Comic diagonal stripes */
+.comic-stripes {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.03),
+    rgba(255, 255, 255, 0.03) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+/* Comic text stroke utility */
+.comic-stroke {
+  -webkit-text-stroke: 1.5px #000000;
+}
+
+.comic-stroke-thick {
+  -webkit-text-stroke: 3px #000000;
+}
+
+.comic-stroke-cyan {
+  -webkit-text-stroke: 1.5px #00e5ff;
+}
+
+.comic-stroke-red {
+  -webkit-text-stroke: 1.5px #ff1f3d;
+}
+
+/* Multiverse chromatic aberration glitch text */
+.glitch-text {
+  position: relative;
+  display: inline-block;
+}
+
+.glitch-text::before,
+.glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, 0, 0, 0);
+}
+
+.glitch-text:hover::before {
+  left: 2px;
+  text-shadow: -2px 0 #ff1f3d;
+  clip: rect(24px, 550px, 90px, 0);
+  animation: glitch-anim 2s infinite linear alternate-reverse;
+}
+
+.glitch-text:hover::after {
+  left: -2px;
+  text-shadow: -2px 0 #00e5ff;
+  clip: rect(85px, 550px, 140px, 0);
+  animation: glitch-anim2 2.5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+  0% { clip: rect(12px, 9999px, 44px, 0); }
+  25% { clip: rect(32px, 9999px, 12px, 0); }
+  50% { clip: rect(78px, 9999px, 98px, 0); }
+  75% { clip: rect(15px, 9999px, 55px, 0); }
+  100% { clip: rect(50px, 9999px, 20px, 0); }
+}
+
+@keyframes glitch-anim2 {
+  0% { clip: rect(65px, 9999px, 20px, 0); }
+  25% { clip: rect(10px, 9999px, 75px, 0); }
+  50% { clip: rect(40px, 9999px, 15px, 0); }
+  75% { clip: rect(90px, 9999px, 30px, 0); }
+  100% { clip: rect(25px, 9999px, 60px, 0); }
+}
+
+/* Comic book panel border effect */
+.comic-panel {
+  border: 3px solid #000000;
+  box-shadow: 6px 6px 0px #ff1f3d;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comic-panel:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0px #00e5ff;
+}
+
+.comic-panel-cyan {
+  border: 3px solid #000000;
+  box-shadow: 6px 6px 0px #00e5ff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comic-panel-cyan:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0px #ff1f3d;
+}
+
+/* Comic sticker tag */
+.comic-sticker {
+  display: inline-block;
+  font-family: 'Bebas Neue', Anton, sans-serif;
+  letter-spacing: 0.05em;
+  border: 2px solid #000000;
+  box-shadow: 3px 3px 0px #000000;
+  transform: rotate(-2deg);
+}
+
+/* Hide custom cursor on touch screens */
+@media (hover: none) and (pointer: coarse) {
+  .custom-cursor-container {
+    display: none !important;
+  }
+}
+
+/* Accessibility: Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

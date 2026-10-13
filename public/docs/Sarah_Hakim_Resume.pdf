@@ -1,0 +1,119 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2288 >>
+stream
+0.2 0.3 0.6 rg
+50 800 495 2 re f
+0 0 0 rg
+BT
+/F1 22 Tf
+50 765 Td
+(SARAH HAKIM) Tj
+0 -18 Td
+/F2 11 Tf
+(First-Year B.Tech in Computer Science and Engineering) Tj
+0 -15 Td
+/F3 9.5 Tf
+(Email: sarah.hakim@college.edu | Phone: +91 98765 43210 | Bengaluru, India | GitHub: github.com/sarahhakim) Tj
+0 -25 Td
+/F1 13 Tf
+(CAREER OBJECTIVE) Tj
+0 -15 Td
+/F3 10 Tf
+(Curious and driven First-Year B.Tech CSE student passionate about software engineering, algorithms,) Tj
+0 -14 Td
+(and web technologies. Eager to solve real-world problems through clean code and continuous learning.) Tj
+0 -24 Td
+/F1 13 Tf
+(EDUCATION) Tj
+0 -16 Td
+/F1 10.5 Tf
+(Bachelor of Technology (B.Tech) - Computer Science & Engineering) Tj
+0 -14 Td
+/F3 9.5 Tf
+(Institute of Engineering & Technology | 2025 - 2029 | Current CGPA: 9.2 / 10.0) Tj
+0 -16 Td
+/F1 10.5 Tf
+(Higher Senior Secondary (Class XII) - Science (PCM + CS)) Tj
+0 -14 Td
+/F3 9.5 Tf
+(Central Board of Secondary Education (CBSE) | 2025 | Percentage: 94.8%) Tj
+0 -16 Td
+/F1 10.5 Tf
+(Secondary School Examination (Class X)) Tj
+0 -14 Td
+/F3 9.5 Tf
+(Central Board of Secondary Education (CBSE) | 2023 | Percentage: 96.2%) Tj
+0 -24 Td
+/F1 13 Tf
+(TECHNICAL SKILLS) Tj
+0 -15 Td
+/F3 9.5 Tf
+(- Programming Languages: C, C++, Python, JavaScript (ES6+)) Tj
+0 -14 Td
+(- Web Development: HTML5, CSS3, Responsive Design, Flexbox/Grid) Tj
+0 -14 Td
+(- Core Computer Science: Data Structures & Algorithms (Basics), OOP Concepts, Discrete Mathematics) Tj
+0 -14 Td
+(- Tools & Platforms: Visual Studio Code, Git, GitHub, Linux Shell, Windows Terminal) Tj
+0 -24 Td
+/F1 13 Tf
+(ACADEMIC PROJECTS) Tj
+0 -15 Td
+/F1 10.5 Tf
+(1. Personal Developer Portfolio Website) Tj
+0 -14 Td
+/F3 9.5 Tf
+(Responsive multi-page portfolio featuring dynamic theme toggling, certificate showcase, and resume download.) Tj
+0 -16 Td
+/F1 10.5 Tf
+(2. Student Grade Management System (C++)) Tj
+0 -14 Td
+/F3 9.5 Tf
+(Console-based academic record tracker implementing file I/O, struct sorting, and GPA calculation.) Tj
+0 -24 Td
+/F1 13 Tf
+(CERTIFICATIONS & HONORS) Tj
+0 -15 Td
+/F3 9.5 Tf
+(- Python for Everybody Certification - University Online Course (2025)) Tj
+0 -14 Td
+(- Responsive Web Design Certification - FreeCodeCamp (2025)) Tj
+0 -14 Td
+(- Top 5% Rank in Annual Inter-College Freshers Coding Blitz (2025)) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000261 00000 n 
+0000002601 00000 n 
+0000002676 00000 n 
+0000002754 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+2824
+%%EOF

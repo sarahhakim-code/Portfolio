@@ -1,0 +1,76 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 663 >>
+stream
+0.55 0.25 0.1 rg
+40 40 515 762 re s
+45 45 505 752 re s
+BT
+/F1 26 Tf
+145 680 Td
+(CERTIFICATE OF MERIT) Tj
+0 -40 Td
+/F2 13 Tf
+20 0 Td
+(This honor is awarded to) Tj
+0 -45 Td
+/F1 24 Tf
+55 0 Td
+(SARAH HAKIM) Tj
+0 -40 Td
+/F3 12 Tf
+-140 0 Td
+(In recognition of outstanding algorithmic performance and securing:) Tj
+0 -30 Td
+/F1 16 Tf
+65 0 Td
+(Top 5% Rank - Freshers CodeSprint 2025) Tj
+0 -40 Td
+/F3 11 Tf
+-65 0 Td
+(Annual Inter-Collegiate Competitive Programming Championship for First-Year Engineers.) Tj
+0 -120 Td
+/F1 11 Tf
+(Issue Date: January 2026) Tj
+0 -20 Td
+/F3 10 Tf
+(Credential ID: CODE-2026-0812) Tj
+0 -40 Td
+/F2 11 Tf
+(Hackathon Chair & Department Head) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000261 00000 n 
+0000000975 00000 n 
+0000001050 00000 n 
+0000001128 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+1198
+%%EOF
